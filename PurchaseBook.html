@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="PurchaseBooksServlet" method="POST">
+            <h2> SELECT YOUR CAMPUS</h2>
+        
+        <input type="radio" name="campus" value="Oakville"> Oakville<br>
+        <input type="radio" name="campus" value="Brampton"> Brampton<br>
+        <input type="radio" name="campus" value="Mississauga"> Mississauga<br><hr>
+        <h2>Enter the book information: </h2>
+            Enter the id of the book: <input type="number" name="id" min="1"><br><br>
+            Enter the number of books to be purchased: <input type="number" name="quantity" min="1"><br><br>
+        <input type="submit" value="Purchase book">
+        </form>
+    </body>
+</html>                                                                                                                                                                                                                                                                                  
